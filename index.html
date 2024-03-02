@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo" />
+      <div>
+        <span>Score</span>
+        <h2 id="score">0</h2>
+      </div>
+    </header>
+    <main>
+      <section class="chios">
+        <img src="images/bg-triangle.svg" alt="triangle" class="bg" />
+        <div class="buttons">
+          <div class="two">
+            <div class="all paper">
+              <img id="paper" src="images/icon-paper.svg" alt="icon-paper" />
+            </div>
+            <div class="all scissor">
+              <img
+                id="scissor"
+                src="images/icon-scissors.svg"
+                alt="icon-scissors"
+              />
+            </div>
+          </div>
+          <div class="all rock">
+            <img id="rock" src="images/icon-rock.svg" alt="icon-rock" />
+          </div>
+        </div>
+      </section>
+      <section class="picked off">
+        <div class="player">
+          <h3>You Picked</h3>
+          <div class="all vs">
+            <img src="" alt="" />
+          </div>
+        </div>
+        <div class="result offf">
+          <h2>You Lose</h2>
+          <button>Play Again</button>
+        </div>
+        <div class="computr">
+          <h3>The House Picked</h3>
+          <div class="all vs hid">
+            <img src="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button class="rules">Rules</button>
+      <div class="popUp hidden">
+        <div class="header">
+          <h2>RULES</h2>
+          <img src="images/icon-close.svg" id="exit" alt="Exit" />
+        </div>
+        <img src="images/image-rules.svg" alt="Rules" />
+      </div>
+      <span class="bg-pop-up hidden"></span>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
